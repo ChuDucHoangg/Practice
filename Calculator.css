@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@800&display=swap');
+body{
+    background: linear-gradient(to right, #c31432, #240b36);
+}
+.container{
+    width: 300px;
+    height: 400px;
+    /* background-color: black; */
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    /* justify-content: space-between; */
+    font-family: 'Catamaran', sans-serif;
+    /* background: linear-gradient(to right, #00093c, #2d0b00); */
+}
+.title{
+    text-align: center;
+    font-size: 2em;
+    padding: 5px;
+    font-weight: bold;
+    /* background-color: rgb(150,61,11); */
+    color: white;
+    border-radius: 20px;
+}
+.input{
+    display: flex;
+    justify-content: stretch;
+    height: 50px;
+    /* background-color: black; */
+    /* border: 1px solid white; */
+}
+.result{
+    border-radius: 10px;
+    border: red;
+    flex-grow: 1;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Catamaran', sans-serif;
+}
+.buttons{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+.button{
+    background-color: white;
+    /* background: linear-gradient(to right, #240b36, #c31432); */
+    border: red;
+    border-radius: 50%;
+    flex-grow: 1;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.5em;
+    width: 30px;
+    cursor: pointer;
+}
